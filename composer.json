@@ -1,16 +1,22 @@
 {
     "name": "artisanworkshop/mfk-api-php",
     "description": "Money Forward Kessai API of the package",
-	"homepage": "https://wc.artws.info/",
-	"version": "0.9.5",
+    "type": "library",
     "license": "GPL-3.0-or-later",
     "authors": [
         {
           "name": "Shohei Tanaka",
           "email": "shohei.t@artws.info"
         }
-      ],
-        "require": {
+    ],
+    "minimum-stability": "dev",
+    "keywords": [
+        "moneyforward",
+        "API"
+    ],
+	"homepage": "https://wc.artws.info/",
+	"version": "0.9.5",
+    "require": {
         "php": ">=8.1",
         "ext-curl": "*",
         "ext-json": "*",
@@ -23,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Artisanworkshop\\MoneyForwardKessai\\": "src/"
+            "Artisanworkshop\\MoneyForwardKessai\\": ["src/MoneyForwardKessai"]
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Artisanworkshop\\MoneyForwardKessai\\Tests\\": "tests/"
+            "Artisanworkshop\\MoneyForwardKessai\\Tests\\": "tests/php/MoneyForwardKessai"
         }
     }
 }
