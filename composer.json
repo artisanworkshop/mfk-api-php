@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Artisanworkshop\\MoneyForwardKessai\\": "src/"
+            "Artisanworkshop\\MoneyForwardKessai\\": ["src/MoneyForwardKessai"]
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Artisanworkshop\\MoneyForwardKessai\\Tests\\": "tests/"
+            "Artisanworkshop\\MoneyForwardKessai\\Tests\\": "tests/php/MoneyForwardKessai"
         }
     }
 }
