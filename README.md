@@ -1,2 +1,2 @@
 # mfk-api-php
-PHP code for introducing the Mony Forword Kessai API
+PHP code for introducing the Money Forward Kessai API
